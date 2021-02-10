@@ -1,0 +1,134 @@
+body{
+	background: linear-gradient(90deg, #ffefba,#ffefff, #ffc0cb,#ffefff,#ffefba);
+	font-family: roboto, sans-serif;
+}
+header{
+	position: absolute;
+	max-width: 100%;
+}
+video{
+	max-width: 100%;
+	height: auto;
+}
+form{
+
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+h3, h5{
+	text-align: center;
+	padding: 0;
+}
+h1{
+	font-size: 2em;
+	font-family: Garamond;
+	text-align: center;
+}
+#header{
+	position: fixed;
+	display: flex;
+	top: 0px;
+	left: 0px;
+	max-height: 75px;
+	width: 100%;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background: white;
+}
+#nav-bar{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-content: center;
+	align-items: center;
+	top:5px;
+	right: 5px;
+	background: white;
+	text-align: center;
+}
+#email{
+	height: 20px;
+	line-height: 20px;
+}
+#form{
+	text-align: center;
+	margin: 50px 15% 0% 15%;
+	max-width: 100%;
+}
+#submit{
+	width: 200px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: yellow;
+	font-size: 1.2em;
+}
+#video{
+	max-width: 500px;
+	width: 100%;
+	margin: auto;
+}
+#features{
+	margin:0% 15%;
+	height: auto;
+	padding: 15px;
+	padding-top: 0px;
+}
+#how-is-it-made{
+	text-align: center;
+}
+#prices{
+	text-align: center;
+	margin: 0% 10%;
+}
+#box1{
+	max-width: 100%;
+	width: 1000px;
+	height: 400px;
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	text-align: center;
+}
+.content{
+	display: block;
+	width: 100%;
+
+}
+
+.nav-link{
+	margin:0px 5px;
+	padding-left: 15px;
+	text-decoration: none;
+}
+
+.items{
+	width: 350px;
+	height: 420px;
+	border-width: 10px;
+	max-width: 100%;
+	margin: 0 15px;
+	box-shadow: 2px 5px #ffc0cb;
+	background: linear-gradient(90deg, #f2f2f2, #dbdbdb, #eaeaea); 
+}
+
+@media (max-width: 800px){
+	#box1{
+		max-width: 100%;
+		margin:0% 10%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		text-align: center;
+	}
+	.items{
+		width: 350px;
+		height: 450px;
+		border-width: 10px 0;
+		max-width: 100%;
+		margin:10px 10px;
+		box-shadow: 2px 5px #ffc0cb;
+		background: linear-gradient(90deg, #f2f2f2, #dbdbdb, #eaeaea); 
+	}
+}
